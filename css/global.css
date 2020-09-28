@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+html,
+body {
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1226px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none !important;
+}
+
+.box {
+  padding: 1%;
+}
+
+.box-img {
+  padding: 4rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
